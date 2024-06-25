@@ -8,9 +8,9 @@ const Item = (props) => {
       <div className="item">
         <Link style={{ textDecoration: "none" }}to={`/product/${props.id}`}>
           <img onClick={window.scrollTo(0, 0)} src={props.image} alt="" />
-       
+       </Link>
         <p>{props.name}</p> 
-          </Link>
+          
           
         <p>{props.category}</p>
         <div className="item-prices">
