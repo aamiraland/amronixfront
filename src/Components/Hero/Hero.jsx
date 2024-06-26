@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-right">
-        <Link to={`/product/10`}>
+        <Link to={`/product/37`}>
           <img className="hero-right-img" src={hero} alt="" />
         </Link>
       </div>
